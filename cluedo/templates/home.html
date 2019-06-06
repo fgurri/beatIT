@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="{% static 'css/cluedo.css' %}">
+	<script src="{% static 'js/binomi-board.js' %}"></script>
+	<script src="{% static 'board.json' %}"></script>
+	<script>
+		b = new Board(board_json);
+		b.get_cell("1")
+	</script>
+</head>
+<body>
+	<div id="game-container">
+		<div id="game-board">
+		</div>
+	</div>
+</body>
+</html>

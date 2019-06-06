@@ -1,0 +1,11 @@
+#game-board {
+	height: 900px;
+	background-image: url("../img/cluedo_board.png");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+#game-container {
+	background-color: grey;
+}
